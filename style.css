@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+    /* padding: 3rem; */
+    margin: 10rem;
+    border: 1px solid black;
+}
+
+.num1, .num2 {
+    margin: .5rem;
+    size: 1rem;
+    font-weight: bold;
+}
+
+#number1, #number2, button{
+    padding: 1rem;
+}
+
+button{
+    color: black;
+    font-weight: bolder;
+    background-color: green;
+    border: none;
+    border-radius: 3rem;
+}
+
+#result{
+    font-size: 4rem;
+    font-weight: bolder;
+}
